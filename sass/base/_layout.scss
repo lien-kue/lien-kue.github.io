@@ -1,4 +1,4 @@
-$max-width: 1200px !default;
+$max-width: 1024px !default;
 
 // Padding used for layout margins
 $pad-min: 18px !default;
@@ -44,6 +44,7 @@ $header-padding-bottom: 1.5em !default;
 }
 
 body {
+  background: image-url('background.png');
   -webkit-text-size-adjust: none;
   max-width: $max-width;
   position: relative;
@@ -60,7 +61,7 @@ body {
       padding-left: $pad-medium;
       padding-right: $pad-medium;
     }
-    @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: 900px) {
       padding-left: $pad-wide;
       padding-right: $pad-wide;
     }
